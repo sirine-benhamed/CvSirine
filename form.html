@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+
+<body>
+
+    <h2 id="inf" class="text-center">Inscription en licence</h2>
+    <div class="container">
+
+        <form>
+
+            <fieldset>
+
+                <p class="text-center">
+                    <legend>Informations personnelles</legend>
+                </p>
+
+                <div>
+
+                    <div class="form-group" >
+                        <p class="text-center"> <label for="Name">Votre Nom</label>
+                            <input type="text" class="text" class="form-control" id="Name" placeholder="votre nom ?">
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <p class="text-center"> <label for="prenom">Prenom</label>
+                            <input type="text" class="text" class="form-control" id="prenom" placeholder="votre prenom ?">
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <p class="text-center"> <label for="age">Votre age</label>
+                            <input type="text" class="text" class="form-control" id="age" placeholder="votre age ?">
+                        </p>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="text-center"> <label for="Email">votre adresse</label>
+                            <textarea class="text" type="email" class="form-control" id="Email"
+                                placeholder="votre adresse ?" rows="6" cols="40"></textarea>
+                        </p>
+                    </div>
+
+
+                    <div class="form-group">
+                        <p class="text-center"> <label for="mdp">Password</label>
+                            <input type="password" class="text" class="form-control" id="mdp">
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <p class="text-center"> <label for="mdp">Retaper votre mot de passe</label>
+                            <input type="password" class="text" class="form-control" id="mdp">
+                        </p>
+                    </div>
+
+
+                    <div class="form-check">
+                        <p class="text-center"> <label class="radio" for="radio"> Votre groupe: </label>
+                            <input class="radio"  type="radio" name="exampleRadios" id="radio" value="option1"
+                                checked>Groupe 1
+
+                            <input class="radio" type="radio" name="exampleRadios" id="radio" value="option2">Groupe 2
+
+
+                            <input class="radio" type="radio" name="exampleRadios" id="radio" value="option3">Groupe 3
+                        </p>
+
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <p class="text-center">
+                    <legend>Gestion des groupes et des options</legend>
+                </p>
+                <div>
+                    <div class="form-group">
+                        <p class="text-center"> <label for="Name">Numéro de carte d'étudiant </label>
+                            <input type="text" class="text" class="form-control" id="Name"
+                                placeholder="Numéro de carte d'étudiant ?">
+                        </p>
+                    </div>
+
+                    <p class="text-center">
+                        <label for="ch">Choisissez le options que vous désirez: </label>
+
+                        <select class="text" class="custom-select" size="5" id="ch">
+
+                            <option value="1">J2ee</option>
+                            <option value="2">Android</option>
+                            <option value="3">.Net</option>
+                            <option value="3">HTML5</option>
+                            <option value="3">Flex</option>
+                        </select>
+                    </p>
+                </div>
+            </fieldset>
+            <p class="text-center">
+                <button type="submit" class="btn btn-primary" class="btn btn-primary col-sm-offset-3"> Submit</button>
+                <button type="reset" class="btn btn-primary">réinitialiser</button>
+            </p>
+            </p>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

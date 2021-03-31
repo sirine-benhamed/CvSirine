@@ -1,0 +1,21 @@
+.k
+{
+   
+    width: 1300px;
+    height: 600px;
+}
+#sirine{
+
+width: 0;
+height: 0;
+border: 0 solid transparent;
+border-right-width: 150px;
+border-left-width: 0px;
+border-bottom: 200px solid rgb(255, 220, 232);
+background-color: ;
+
+}
+body{
+    background-color: tomato;
+}
+
