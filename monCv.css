@@ -3,16 +3,18 @@
 {
   
     width: 10px;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 40px;
+    
 }
 
 #img
 {
-    width:230px;
+    width:270px;
    clip-path:ellipse(50% 50%);
-   margin-left: 60px;
+   margin-left: 40px;
    margin-top: 60px;
+   
     
 }
 .accueil{
@@ -43,13 +45,16 @@
     margin-left: 90px;
     color:rgb(235, 175, 195) ;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 #es{
     padding-left: 30px;
+    padding-top: ;
 }
 #n
 {
     margin-left: 30px;
+   
 }
 #s
 {
@@ -66,8 +71,7 @@
     left: 35%;
     position: absolute;
     height: 100px;
-    
-    margin-top: 40px;
+    margin-top: 10px;
     margin-right: 200px;
     
 }
@@ -76,6 +80,6 @@ body{
     background-color:rgb(235, 175, 195);
 }
 #conta{
-    padding-top: 80px;
+    padding-top: 30px;
     padding-left: 83px;
 }
